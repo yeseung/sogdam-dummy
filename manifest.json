@@ -1,0 +1,16 @@
+{
+  "name": "속담 더미 (Sogdam Dummy)",
+  "description": "랜덤 한국속담 생성기 확장 프로그램",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "128": "img/icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "32": "img/icon32.png",
+    "128": "img/icon128.png"
+  }
+}

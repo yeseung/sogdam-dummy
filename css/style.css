@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    width: 320px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* 배경색 추가 */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    outline: none;
+}
+
+.cont {
+    margin: 10px;
+    background: white;
+}
+
+.response {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 93%;
+    height: 60px; /* 높이 증가 */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* 둥근 모서리 */
+    resize: none;
+    background-color: #f9f9f9;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.button-container button {
+    flex: 1;
+    height: 35px; /* 버튼 높이 통일 */
+    font-size: 14px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* 클릭 전 살짝 확대 효과 */
+}
+
+#refresh_btn {
+    background-color: #264654;
+}
+
+#copy_btn {
+    background-color: #E97052;
+}
+
+.footer {
+    background: #008080;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
